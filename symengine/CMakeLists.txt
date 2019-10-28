@@ -21,7 +21,7 @@ if (WITH_GENERATE_PARSER)
 
 endif()
 
-add_subdirectory(utilities/matchpycpp)
+# add_subdirectory(utilities/matchpycpp)
 
 set(SRC
     add.cpp
@@ -74,7 +74,7 @@ set(SRC
     series_generic.cpp
     sets.cpp
     solve.cpp
-    sparse_matrix.cpp
+    # sparse_matrix.cpp
     symbol.cpp
     symengine_rcp.cpp
     visitor.cpp
@@ -184,7 +184,7 @@ set(HEADERS
     subs.h
     symbol.h
     symengine_assert.h
-    symengine_casts.h
+    # symengine_casts.h
     symengine_exception.h
     symengine_rcp.h
     type_codes.inc
